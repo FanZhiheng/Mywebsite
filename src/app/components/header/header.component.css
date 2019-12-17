@@ -1,5 +1,6 @@
 .header {
-    background: rgb(163, 133, 133);
+    background: rgba(255, 174, 174, 0.76);
+    border-bottom: 0.5vh solid gray;
 }
 
 .title {
@@ -21,7 +22,7 @@ p {
     text-align: center;
     font-size: 5em;
     font-family: "calibri light";
-    color: rgb(68, 48, 48);
+    color: rgb(255, 255, 255);
     font-weight: 900;
 
     background: rgb(202,190,190);
@@ -50,16 +51,16 @@ p {
 
 button {
     font-family: "calibri light";
-    font-size: 2em;
-    font-weight: bold;
+    font-size: 3em;
+    font-weight: 900;
     color: white;
     display:inline-block;
     background-color: rgb(252,173,38);
     height: 7vh;
-    transition-duration: 0.12s;
+    transition-duration: 0.1s;
     border-color: transparent;
     border-radius: 1vh;
-    border-top: 1vh solid rgb(240, 159, 18);
+    border-top: 1vh solid rgba(192, 122, 0, 0.767);
     margin-right: auto;
     margin-left: auto;
     margin-bottom: 1.2vh;
@@ -73,6 +74,10 @@ button:active {
     transform: rotateX(-20deg);
 }
 
+button:hover {
+
+    font-size: 3.2em;
+}
 
 
 
