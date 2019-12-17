@@ -2,14 +2,15 @@
 main, html, body {
     margin: 0;
     padding: 0;
-    width:100%;
-    height:100%;
+    width:100vw;
+    height:100vh;
     overflow:hidden;
 }
 
 main {
     text-align: center;
     position: relative;
+    -webkit-font-smoothing: antialiased;
 }
 
 html, body, header, footer, hgroup, nav, article, section, figure,
@@ -19,4 +20,5 @@ figcaption, h1, h2, h3, ul, li, body, div, p, img {
     font-size: 100%;
     vertical-align: baseline;
     border: 0;
+    -webkit-font-smoothing: antialiased;
 }
