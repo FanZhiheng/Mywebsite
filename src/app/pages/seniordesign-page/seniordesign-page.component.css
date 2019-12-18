@@ -1,35 +1,142 @@
 .projectinfo {
-    overflow: auto;
+    overflow: hidden;
     overflow-x:hidden;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    border-bottom: 1px solid rgb(73, 61, 61);
+    margin-top: 1vh;
 }
 
 p { 
     color: rgb(0, 0, 0);
     text-align: justify;
-    font-size: 2em;
+    font-size: 2.5vh;
+}
+h1{
+    font-size: 4vh;
+    font-family: 'calibri light';
+    -webkit-font-family: 'calibri light';
+    -moz-font-family: 'calibri light';
 }
 
 .description {
     flex-grow: 1;
-    border: 5px solid rgba(153, 153, 153, 0.37);
+    max-width: 50vw;
 }
 
 .pictures {
     flex-grow: 1;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
+    text-align: center;
+
 }
 
 .teamphoto {
-    width: 35vw;
-    height: 50vh;
+    flex-grow: 2;
+    height: 70vh;
     background: url("../../../assets/team-photo.jpg");
-    background-size: 100%;
+    background-size: contain;
     background-repeat: no-repeat;
-    border-radius: 3vh;
+    background-position: center;
 }
 
+iframe {
+    width: 100%;
+    height: 50vh;
+    border-radius: 2vh;
+}
+
+.projectlinks{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.video {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-grow: 2;
+}
+
+.link {
+    flex-grow: 1;
+}
+
+label {
+    font-family: "calibri light";
+    font-size:5vh;
+
+
+}
+
+.label {
+    font-family: "calibri light";
+    font-size:5vh;
+    margin-right: 10vw;
+}
+.projectsamplepages{
+    display: flex;
+    flex-direction:column;
+    width: 100vw;
+}
+
+.homepage, .loginpage,.virtualkeyboard, .boundary,.history{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.app1,.app2,.app3,.app4,.app5{
+    height: 50vh;
+    margin-right: 10vw;
+}
+
+.pageintro{
+    flex-grow: 1;
+    max-width: 60vw;
+}
+.apppage{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.app1{
+    background: url("../../../assets/loginpage.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.app2{
+    background: url("../../../assets/homepage.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.app3{
+    background: url("../../../assets/virtualkeyboard.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.app4{
+    background: url("../../../assets/boundary.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.app5 {
+    background: url("../../../assets/history.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}

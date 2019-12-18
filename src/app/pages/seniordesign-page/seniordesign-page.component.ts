@@ -11,9 +11,18 @@ import { slider } from 'src/app/route-animations';
 })
 export class SeniordesignPageComponent implements OnInit {
 
-  constructor() { }
+  private projectIntro : string;
+  constructor() { 
 
-  ngOnInit() {
   }
 
+  
+  ngOnInit() {
+    this.projectIntro = "https://www.cse.msu.edu/~cse498/2019-08/projects/volkswagen/";
+  }
+
+
+  intro() {
+    window.location.href = this.projectIntro;
+  }
 }
