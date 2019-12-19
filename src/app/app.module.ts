@@ -7,6 +7,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { LandingPageComponent } from './pages/landing-page/landing-page.component';
 import { SeniordesignPageComponent } from './pages/seniordesign-page/seniordesign-page.component';
 import { ContectPageComponent } from './pages/contect-page/contect-page.component';
+import { ResumeComponent } from './pages/resume/resume.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { ContectPageComponent } from './pages/contect-page/contect-page.componen
     HeaderComponent,
     LandingPageComponent,
     SeniordesignPageComponent,
-    ContectPageComponent
+    ContectPageComponent,
+    ResumeComponent
   ],
   imports: [
     BrowserModule,
