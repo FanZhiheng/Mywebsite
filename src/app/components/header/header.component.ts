@@ -10,7 +10,7 @@ export class HeaderComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    this.resumelink = 'https://drive.google.com/open?id=18HjpTUV2HIhX2mB9cuO_8HvvZ0a1aU83';
+    this.resumelink = 'https://drive.google.com/open?id=11Um93SkBGIwWtcfiIr1GMbcsnYCpVA_B';
 
   }
   goResume (){
