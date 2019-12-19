@@ -38,6 +38,22 @@ img {
     font-size: 3.1em;
 }
 
+.tipdiv {
+    display: block;
+    justify-content:center;
+}
+
+.tip {
+    font-size: 3vh;
+
+    font-family: "calibri light";
+    color: rgb(255, 253, 253);
+    font-weight: 900;
+
+    background: rgb(0, 0, 0);
+    background-size: 100%;
+    border-radius: 5px;
+}
 p { 
     text-align: center;
     font-size: 4vh;
