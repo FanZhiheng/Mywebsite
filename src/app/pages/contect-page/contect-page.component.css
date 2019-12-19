@@ -1,0 +1,27 @@
+.contectpage {
+    background-color: rgba(220, 208, 192, 0.74);
+
+    width: 99.999vw;
+    height: 82.5vh;
+}
+
+.submain {
+    width: 100%;
+    height: 100%;
+
+}
+ul {
+    padding-top: 20vh;
+
+}
+li {
+    font-family: "calibri light";
+    -webkit-font-family: "calibri light";
+    -moz-font-family: "calibri light";
+    font-size: 5vh;
+    -webkit-font-size: 5vh;
+    -moz-font-size: 5vh;
+    font-weight: bolder;
+    -webkit-font-weight: bolder;
+    -moz-font-weight: bolder;
+}

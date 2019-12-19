@@ -5,7 +5,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    border-bottom: 3px solid #373737;
+    border-bottom: 5px solid #373737;
     padding-top: 0.5vh;
     border-radius:10px;
 }
@@ -63,12 +63,6 @@ h1{
     background-position: center;
 }
 
-iframe {
-    width: 100%;
-    height: 50vh;
-    border-radius: 2vh;
-}
-
 .projectlinks{
     display: flex;
     flex-direction: row;
@@ -101,8 +95,9 @@ label {
 .projectsamplepages{
     display: flex;
     flex-direction:column;
-
-
+    margin-top: 10vh;
+    border-top: 5px solid #373737;
+    border-radius: 20px;
 }
 
 .homepage, .loginpage,.virtualkeyboard, .boundary,.history{
@@ -168,3 +163,23 @@ label {
     background-repeat: no-repeat;
     background-position: center;
 }
+
+
+iframe {
+    padding-top: 10vh;
+    width: 60vw;
+    height: 60vh;
+    border-radius: 2vh;
+    border-bottom: 5px solid #373737;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.projectvideo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-bottom: 5px solid #373737;
+    border-radius: 20px;
+}
+
