@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import {stepper }  from './route-animations';
+import {stepper,fader }  from './route-animations';
 import { RouterOutlet } from '@angular/router';
 
 @Component({
@@ -7,7 +7,7 @@ import { RouterOutlet } from '@angular/router';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css'],
   animations: [
-    stepper,
+    fader,
   ]
 })
 export class AppComponent {
