@@ -1,79 +1,112 @@
-<div class='projectinfo'>
-    <div class='pictures'>
-        <div class='teamphoto'></div>
-        <label>This is my team photo</label>
+<div class='seniordesignpage'>
+    <div class='projectinfo'>
+        <div class='pictures'>
+            <div class='teamphoto'></div>
+            <label>Team Volkswagen</label>
+        </div>
+
+        <div class='description'>
+            <h1>Project Introduction</h1>
+            <p class='descriptiontext'>
+                &nbsp;&nbsp;&nbsp;My senior design(also called the Capstone projct) task was to work with 4 people as a
+                team to create a app that runs on car.
+                Our sponsor was Volkswagen American Group. The idea was that the app will connect to <a
+                    href='https://www.chamberlain.com/'>Chamberlain&#174;</a>
+                so that driver could use their car to close and open smart devices such as smart hubs or smart garage
+                doors.
+                <br><br>
+                &nbsp;&nbsp;&nbsp;The app also grand drivers the ability to set a Geo-Fence so that when their car
+                leaves the Geo-Fence they set, their smart devices will be turned off
+                automaticly and when they come back in the Geo-Fence the devices will be turned on.
+                <br><br>
+                &nbsp;&nbsp;&nbsp;My role in the team was the HTML&CSS front-end developer. I'm in charge of all the
+                design and implementation of the app pages.
+                <br><br>
+                &nbsp;&nbsp;&nbsp;Our client, which is Volkswagen American Group, also sent us most pre-made layout images that they
+                 had in their mind about the app. I made the app page layout looks exactly same as their images, but like i said, they send "most" of them, so for the pages that they didn't cover with,
+                  i had to inprovise them.
+
+            </p>
+        </div>
     </div>
 
-    <div class='description'>
-        <h1>Project Introduction</h1>
-        <p>
-            My senior design task was to work with a team to create a app that runs on car'.<br>
-            Our sponsor was Volkswagen American Group.
-        </p>
+    <div class='projectsamplepages'>
+        <h1>Senior Design Page Introductions</h1>
+        <div class='loginpage'>
+            <div class='apppage'>
+                <div class='app1'>
+
+                </div>
+                <label class='label'>App login page</label>
+            </div>
+            <p class='pageintro'>
+                <br><br><br><br><br>
+                &#8592;&#8592;&#8592; This is the login page of our app. User will be asked to enter their myQ account(which is their Chamberlain account)
+                to login. 
+            </p>
+        </div>
+
+        <div class='homepage'>
+            <div class='apppage'>
+                <div class='app2'>
+
+                </div>
+                <label class='label'>App home page</label>
+            </div>
+            <p class='pageintro'>
+                <br><br>
+                &#8592;&#8592;&#8592;
+                <br>
+                This is the landing page of our app. We took the account user entered and send a post request to Chamberlain's Api for Oauth access.
+                Once we are logined in, we pulled the users devices and show them in the landing page. The status of the device are shown on the right side of the device 
+                name. As you can see, "Open" means the device is closed. By pressing on the "Open", user could also open the device through the 
+                app. A exclamation mark means that the device is offline.
+            </p>
+        </div>
+
+        <div class='boundary'>
+            <div class='apppage'>
+                <div class='app4'>
+
+                </div>
+                <label class='label'>App boundary page</label>
+            </div>
+            <p class='pageintro'>
+                <br><br>
+                &#8592;&#8592;&#8592;
+                <br> 
+                This is the set Geo-Fence page of our app. As i mentioned in the project introduction section, users can set a Geo-Fence for the ability to 
+                turn off and on devices when their car leaves the fence. We connected this page to Google map api for the implementation of map. The user would type in their 
+                address in the input box and the map will put a pin on the address they provided. The fence size can be edited by pressing the plus and minus buttons on the 
+                right. Dragging the fence itself will also do.
+            </p>
+        </div>
+
+        <div class='virtualkeyboard'>
+            <div class='apppage'>
+                <div class='app3'>
+
+                </div>
+                <label class='label'>Virtual keyboard</label>
+            </div>
+            <p class='pageintro'>
+                <br><br><br><br><br>
+                &#8592;&#8592;&#8592; This is still set Geo-Fence page but with the virtual keyboard. I used Ngx-virtual-keyboard here. 
+            </p>
+        </div>
+
+        <div class='history'>
+            <div class='apppage'>
+                <div class='app5'>
+
+                </div>
+                <label class='label'>App history page</label>
+            </div>
+            <p class='pageintro'>
+                <br><br><br><br><br>
+                &#8592;&#8592;&#8592; This is the history page of our app. Just in case if user wants to check if someone opened or closed their devices without their 
+                permissions, they can go to this history page.
+            </p>
+        </div>
     </div>
 </div>
-
-<div class='projectsamplepages'>
-    <h1>Senior Design Page Introductions</h1>
-    <div class='loginpage'>
-        <div class='apppage'>
-            <div class='app2'>
-
-            </div>
-            <label class='label'>App login page</label>
-        </div>
-        <p class='pageintro'>
-
-        </p>
-    </div>
-
-    <div class='homepage'>
-        <div class='apppage'>
-            <div class='app1'>
-
-            </div>
-            <label class='label'>App home page</label>
-        </div>
-        <p class='pageintro'></p>
-    </div>
-
-    <div class='boundary'>
-        <div class='apppage'>
-            <div class='app4'>
-
-            </div>
-            <label class='label'>App boundary page</label>
-        </div>
-        <p class='pageintro'></p>
-    </div>
-
-    <div class='virtualkeyboard'>
-        <div class='apppage'>
-            <div class='app3'>
-
-            </div>
-            <label class='label'>Virtual keyboard</label>
-        </div>
-        <p class='pageintro'></p>
-    </div>
-
-    <div class='history'>
-        <div class='apppage'>
-            <div class='app5'>
-
-            </div>
-            <label class='label'>App history page</label>
-        </div>
-        <p class='pageintro'></p>
-    </div>
-</div>
-<!-- <div class='projectlinks'>
-    <div class='video'>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/8z9GhNW1urY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <label>Project Video</label>
-    </div>
-    
-    <div class='link'>
-        <button (click)="intro()">Project Introduction</button>
-    </div>
-</div> -->

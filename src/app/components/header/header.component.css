@@ -1,6 +1,5 @@
 .header {
     background-image: url("../../../assets/thumb-1920-82317.jpg");
-    overflow: hidden;
     background-size:cover;
 
 }
@@ -28,7 +27,7 @@ img {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-top:1vh;
+    padding-top:1vh;
 } 
 
 .reverseparty {
@@ -48,7 +47,7 @@ p {
 
     background: rgb(202,190,190);
     background-size: 100%;
-    border-radius: 2vh;
+    border-radius: 1.5vh;
 }
 
 .textup {
@@ -99,6 +98,4 @@ button:hover {
 
     font-size: 4.7vh;
 }
-
-
 

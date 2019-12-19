@@ -1,30 +1,50 @@
+.seniordesignpage {
+    background-color: rgba(220, 208, 192, 0.63);
+}
 .projectinfo {
-    overflow: hidden;
-    overflow-x:hidden;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    border-bottom: 1px solid rgb(73, 61, 61);
-    margin-top: 1vh;
+    border-bottom: 3px solid #373737;
+    padding-top: 1vh;
+    border-radius:10px;
 }
 
 p { 
     color: rgb(0, 0, 0);
     text-align: justify;
     font-size: 2.5vh;
-}
-h1{
-    font-size: 4vh;
     font-family: 'calibri light';
     -webkit-font-family: 'calibri light';
     -moz-font-family: 'calibri light';
+}
+h1{
+    font-size: 6vh;
+    font-family: 'calibri light';
+    -webkit-font-family: 'calibri light';
+    -moz-font-family: 'calibri light';
+    font-weight: 900;
 }
 
 .description {
     flex-grow: 1;
     max-width: 50vw;
+    padding-right: 0.2vw;
+    border-left: 3px solid #373737;
+    border-right: 3px solid #373737;
+    border-top: 3px solid #373737;
+    background-image: url("../../../assets/Volkswagen-logo-2019-640x500.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    border-radius: 15px;
+
 }
 
+.descriptiontext {
+    font-size: 3vh;
+    -webkit-text-stroke: 0.5px rgb(73, 73, 73);
+}
 .pictures {
     flex-grow: 1;
     display: flex;
@@ -76,29 +96,35 @@ label {
 .label {
     font-family: "calibri light";
     font-size:5vh;
-    margin-right: 10vw;
+
 }
 .projectsamplepages{
     display: flex;
     flex-direction:column;
-    width: 100vw;
+
+
 }
 
 .homepage, .loginpage,.virtualkeyboard, .boundary,.history{
-    flex-grow: 1;
+    max-height: 70vh;
+    max-width: 95vw;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
+
 }
 
 .app1,.app2,.app3,.app4,.app5{
     height: 50vh;
-    margin-right: 10vw;
+
 }
 
 .pageintro{
     flex-grow: 1;
-    max-width: 60vw;
+    max-width: 50vw;
+    font-size: 3.2vh;
+    background-color: rgba(153,130,97, 0.5);
+    border-radius: 15px;
 }
 .apppage{
     flex-grow: 1;
