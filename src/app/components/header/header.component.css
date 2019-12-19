@@ -4,24 +4,24 @@
 
 }
 .spartan {
-    width: 5.5vw;
-    height: 10vh;
+    width: 4.3vw;
+    height: 7vh;
     margin-right: auto;
     background-image: url("../../../assets/spartan-helmet-og.png");
     background-size: contain;
     background-repeat: no-repeat;
 }
 .Rspartan {
-    width: 5.5vw;
-    height: 10vh;
+    width: 4.3vw;
+    height: 7vh;
     margin-left: auto;
     background-image: url("../../../assets/spartan-helmet-og-reversed.png");
     background-size: contain;
     background-repeat: no-repeat;
 }
 img {
-    width: 5.5vw;
-    height: 10vh;
+    width: 4.3vw;
+    height: 7vh;
 }
 .title {
     display: flex;
@@ -31,16 +31,16 @@ img {
 } 
 
 .reverseparty {
-    font-size: 4em;
+    font-size: 3.1em;
     transform: rotateY(180deg);
 }
 .party {
-    font-size: 4em;
+    font-size: 3.1em;
 }
 
 p { 
     text-align: center;
-    font-size: 7vh;
+    font-size: 4vh;
     font-family: "calibri light";
     color: rgb(255, 253, 253);
     font-weight: 900;
@@ -52,15 +52,15 @@ p {
 
 .textup {
     background-color: #A38585;
-    border-bottom: 0.5vw solid rgb(202, 190, 190);
-    border-right: 0.5vw solid rgb(202,190,190);
+    border-bottom: 0.3vw solid rgb(202, 190, 190);
+    border-right: 0.3vw solid rgb(202,190,190);
 }
 
 .textdown {
-    border-top: 0.5vw solid rgb(202, 190, 190);
+    border-top: 0.3vw solid rgb(202, 190, 190);
     background-color: #A38585;
     border-bottom: 0 solid #A38585;
-    border-left: 0.5vw solid rgb(202,190,190);
+    border-left: 0.3vw solid rgb(202,190,190);
 }
 
 .buttons {
