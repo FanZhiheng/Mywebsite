@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { slider, fader,stepper }  from './route-animations';
+import {stepper }  from './route-animations';
 import { RouterOutlet } from '@angular/router';
 
 @Component({

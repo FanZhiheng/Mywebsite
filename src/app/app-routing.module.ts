@@ -9,8 +9,8 @@ const routes: Routes = [
   {path: '', redirectTo: '/landingpage', pathMatch: 'full'},
   {path: 'landingpage', component: LandingPageComponent,data: { animation: 'isLeft'}},
   {path: 'seniordesign', component: SeniordesignPageComponent, data: { animation: 'isRight'}},
-  {path: 'contect', component: ContectPageComponent, data: {animation: 'isLeft'}},
-  {path: 'resume', component: ResumeComponent, data: {animation: 'isRight'}},
+  {path: 'contect', component: ContectPageComponent, data: {animation: 'isRight'}},
+  {path: 'resume', component: ResumeComponent, data: {animation: 'isLeft'}},
 ];
 
 @NgModule({
