@@ -12,4 +12,7 @@ export class ResumeComponent implements OnInit {
   ngOnInit() {
   }
 
+  goResume () {
+    
+  }
 }
